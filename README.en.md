@@ -32,7 +32,7 @@ jobs:
     runs-on: [ubuntu-latest]
     steps:
       - name: Request PR Review
-        uses: SnoopyComp/remind-pr-review@v1.3.0
+        uses: codingbaraGo/remind-pr-review@v1.3.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           slackIds: ${{ vars.SLACK_IDS }}
